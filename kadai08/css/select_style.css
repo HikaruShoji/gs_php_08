@@ -1,0 +1,73 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  margin: auto;
+}
+p{
+  margin: 0!important;
+}
+.list{
+  display: flex;
+}
+main{
+  width: 43%!important;
+  box-sizing: border-box;
+  border: #333 1px solid;
+  margin: 3vw;
+  padding: 2vw;
+}
+.store_title{
+  font-size: 3vmax!important;
+}
+.store_value{
+  font-size: 3vmax!important;
+}
+.industry_title{
+  font-size: 1.2vmax!important;
+}
+.industry_value{
+  font-size: 1.2vmax!important;
+}
+.pref_title{
+  font-size: 1.2vmax!important;
+}
+.pref_value{
+  font-size: 1.2vmax!important;
+}
+.tel_title{
+  font-size: 2vmax!important;
+}
+.tel_value{
+  font-size: 2vmax!important;
+  white-space: pre-wrap!important;
+}
+.naiyou_title{
+  font-size: 2vmax!important;
+  margin-bottom: 0!important;
+}
+.naiyou_value{
+  font-size: 2vmax!important;
+  border:#333 0.5px solid;
+  padding: 3px;
+}
+.detail_item{
+  color:#dd4814;
+  font-size: 2vmax!important;
+  width: fit-content!important;
+  border: #dd4814 1px solid!important;
+  border-radius: 2px!important;
+  padding: 3px!important;
+  margin: 0 20px 0 0!important;
+}
+.delete_item{
+  color:#dd4814;
+  font-size: 2vmax!important;
+  width: fit-content!important;
+  border: #dd4814 1px solid!important;
+  border-radius: 2px!important;
+  padding: 3px!important;
+  margin: 0 0 0 20px!important;
+}
